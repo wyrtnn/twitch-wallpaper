@@ -15,7 +15,7 @@ app.whenReady().then(() => {
         webPreferences: { nodeIntegration: false }
     });
 
-    mainWindow.loadURL('https://www.twitch.tv/название_канала');
+    mainWindow.loadURL('https://www.twitch.tv');
 
     mainWindow.setSkipTaskbar(true);
 
